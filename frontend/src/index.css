@@ -1,0 +1,237 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Maghfirea";
+  src: url("/fonts/Maghfirea.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Dirtyline";
+  src: url(/fonts/Dirtyline.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Calfine";
+  src: url(/fonts/Calfine.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Galgo";
+  src: url(/fonts/Galgo.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "PPEditorialNew-UltralightItalic";
+  src: url("/fonts/PPEditorialNew-Italic.otf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  font-family: Inter;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --font-playfair: "Playfair Display", serif;
+  --font-dm-serif: "DM Serif Text", serif;
+  --font-maghfirea: "MyFont", sans-serif;
+  --font-dirtyline: "Dirtyline", sans-serif;
+  --font-calfine: "Calfine", sans-serif;
+  --font-galgo: "Galgo", sans-serif;
+  --font-editorial: "PPEditorialNew-UltralightItalic", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
+  min-height: 100vh;
+}
+
+* {
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 94%;
+    --foreground: 0 0% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 12%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 12%;
+    --radius: 0.5rem;
+    --chart-1: 308 84% 83%;
+    --chart-2: 70 98% 57%;
+    --chart-3: 221 100% 66%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+  .dark {
+    --background: 0 0% 6%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 317 99% 79%;
+    --chart-2: 285 100% 66%;
+    --chart-3: 221 100% 66%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .gradient-button {
+    background: linear-gradient(
+      180deg,
+      hsl(var(--foreground)),
+      hsl(var(--muted-foreground) / 0.5)
+    );
+  }
+}
+
+@layer utilities {
+  .border-dashed-large {
+    border-style: dashed;
+    border-width: 3px;
+    border-image: repeating-linear-gradient(
+      to right,
+      currentColor 0,
+      currentColor 10px,
+      transparent 10px,
+      transparent 20px
+    );
+    border-image-slice: 1;
+  }
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+.perspective {
+  perspective: 2000px;
+}
+
+.transform-style {
+  transform-style: preserve-3d;
+}
+
+.flip-effect {
+  transform-origin: right center;
+  transform: rotateY(-60deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.flip-effect:hover {
+  transform: rotateY(-5deg);
+}
+
+.gothic {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (min-width: 1024px) {
+  .sidebar {
+    width: calc(20% - var(--scroll-progress, 0) * 20%);
+    opacity: var(--scroll-bool);
+  }
+}
+@media (min-width: 1024px) {
+  .sidebar-text {
+    transform: translateX(calc(var(--scroll-progress, 0) * -200px));
+  }
+}
+
+/* Grid expands on scroll */
+@media (min-width: 1024px) {
+  .image-grid {
+    width: calc(65% + var(--scroll-progress, 0) * 100%);
+  }
+}
+
+.ratio-16-9 {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
