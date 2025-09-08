@@ -16,7 +16,7 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur border-b border-border bg-background/80">
+    <header className="md:static sticky top-0 z-50 backdrop-blur border-b border-border bg-background/80">
       <div className="container flex px-8 md:px-12 mx-auto h-16 items-center justify-between">
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8 font-mono">
@@ -35,8 +35,8 @@ const Navbar = () => {
         </nav>
 
         {/* Mobile Menu Button */}
-        <Sheet className="md:hidden p-2 z-50">
-          <SheetTrigger>
+        <Sheet className="p-2 z-50">
+          <SheetTrigger className="md:hidden">
             <Menu className="w-6 h-6" />
           </SheetTrigger>
           <SheetContent>
