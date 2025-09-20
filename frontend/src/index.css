@@ -24,7 +24,9 @@
 
 @font-face {
   font-family: "PPEditorialNew-UltralightItalic";
-  src: url("/PPEditorialNew-Italic.otf") format("opentype");
+  src: url("/PPEditorialNew-Italic.woff2") format("woff2"),
+    url("/PPEditorialNew-Italic.woff") format("woff"),
+    url("/PPEditorialNew-Italic.otf") format("opentype");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
