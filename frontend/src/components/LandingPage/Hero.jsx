@@ -13,7 +13,7 @@ const Hero = (scrollToSection) => {
         {/* Top section with name and dot */}
         <h1
           className="text-8xl xl:text-9xl font-bold leading-none tracking-tight text-center"
-          style={{ fontFamily: "var(--font-editorial)" }}
+          style={{ fontFamily: "PPEditorialNew-UltralightItalic" }}
           data-aos="fade-up"
         >
           Lauren Kimball
