@@ -42,22 +42,22 @@ const Footer = () => {
           <li className="list-none text-left flex flex-col gap-2">
             <div className="font-semibold text-background text-md">WEBSITE</div>
             <a
-              href="#experience"
-              className="font-mono text-md text-muted-foreground hover:underline dark:text-background"
-            >
-              Experience
-            </a>
-            <a
               href="#work"
               className="font-mono text-md text-muted-foreground hover:underline dark:text-background"
             >
-              Work
+              WORK
             </a>
             <a
-              href="#skills"
+              href="#experience"
               className="font-mono text-md text-muted-foreground hover:underline dark:text-background"
             >
-              Skills
+              EXPERIENCE
+            </a>
+            <a
+              href="#about"
+              className="font-mono text-md text-muted-foreground hover:underline dark:text-background"
+            >
+              ABOUT
             </a>
           </li>
         </div>

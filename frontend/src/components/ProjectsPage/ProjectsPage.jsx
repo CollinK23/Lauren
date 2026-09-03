@@ -77,7 +77,7 @@ const ProjectsPage = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full object-cover transition duration-200 ease-out group-hover:brightness-75"
+                    className="aspect-[10/7] w-full object-cover transition duration-200 ease-out group-hover:brightness-75"
                   />
                   <div className="mt-3 flex items-center justify-between">
                     <span className="text-sm uppercase tracking-[0.2em] text-muted-foreground">

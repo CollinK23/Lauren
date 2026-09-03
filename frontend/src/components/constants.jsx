@@ -632,7 +632,7 @@ export const projects = {
     title: "UPCYCLED",
     description:
       "The up-cycling project explored how unwanted jeans and scrap denim could be given a second life rather than contributing to textile waste. I transformed leftover denim into one-of-a-kind totes and pouches, allowing customers to personalize their pieces with different patches so no two bags were exactly alike. After selling multiple pieces, the project grew beyond experimentation into a small-scale product experience and helped me develop practical apparel skills, including pattern making, tech pack development, construction, and designing with material limitations in mind.",
-    image: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_1.jpg",
+    image: "/purse1.jpg",
     tags: ["Design", "Sustainability", "Apparel"],
     year: "2025",
     descriptionSize: "text-[13px]",

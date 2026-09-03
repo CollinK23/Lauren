@@ -16,10 +16,10 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="md:static sticky top-0 z-50 border-b md:bg-chart-1">
+    <header className="md:static sticky top-0 z-50 border-b  backdrop-blur">
       <div className=" flex px-8 md:px-16 mx-auto h-12 items-center justify-between">
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center space-x-8 font-mono text-background font-semibold">
+        <nav className="hidden md:flex items-center space-x-8 font-mono font-medium text-muted-foreground">
           <a href="#work" className="text-sm hover:underline">
             WORK
           </a>
@@ -42,32 +42,32 @@ const Navbar = () => {
           <SheetContent>
             <div className="flex flex-col space-y-8 font-mono text-xl font-medium">
               <a
-                href="#experience"
-                onClick={() => setMobileOpen(false)}
-                className="hover:underline"
-              >
-                Experience
-              </a>
-              <a
                 href="#work"
                 onClick={() => setMobileOpen(false)}
                 className="hover:underline"
               >
-                Work
+                WORK
               </a>
-              {/* <a
-                href="#skills"
+              <a
+                href="#experience"
                 onClick={() => setMobileOpen(false)}
                 className="hover:underline"
               >
-                Skills
-              </a> */}
+                EXPERIENCE
+              </a>
+              <a
+                href="#about"
+                onClick={() => setMobileOpen(false)}
+                className="hover:underline"
+              >
+                ABOUT
+              </a>
               <a
                 href="#contact"
                 onClick={() => setMobileOpen(false)}
                 className="hover:underline"
               >
-                Contact
+                CONTACT
               </a>
             </div>
           </SheetContent>

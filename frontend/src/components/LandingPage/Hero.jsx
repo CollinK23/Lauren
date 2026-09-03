@@ -39,12 +39,12 @@ const Hero = () => {
     <section className="w-full px-8 lg:px-16 mx-auto h-[100vh]">
       <div className="w-full h-full border-x flex items-end justify-between">
         <div className="w-full">
-          <div className="flex lg:flex-row flex-col lg:justify-between justify-center lg:items-stretch items-center lg:items-end pt-8 pr-8 md:pb-0">
+          <div className="flex lg:flex-row flex-col lg:justify-between justify-center lg:items-stretch items-center lg:items-end lg:pt-8 lg:pr-8 md:mb-0 mb-16 mx-auto">
             <h1
-              className="text-[clamp(5rem,8vw,10rem)] leading-[1] tracking-[-0.09em] lg:text-left text-center"
+              className="text-[clamp(5rem,8vw,10rem)] leading-[1] tracking-[-0.09em] lg:text-left text-center lg:pl-4"
               style={{ fontFamily: "PPEditorialNew-UltralightItalic" }}
             >
-              LAUREN <br /> KIMBALL
+              LAUREN <br /> <span className="text-chart-1">KIMBALL</span>
             </h1>
             <p className="text-muted-foreground font-mono font-medium lg:text-right text-center lg:w-[30%] lg:mb-5 text-center lg:self-end">
               PRODUCT & APPAREL DESIGNER

@@ -39,7 +39,7 @@ const About = () => {
           <div className="overflow-hidden lg:h-full">
             <img
               ref={imageRef}
-              src="/Lauren.png"
+              src="/Lauren.jpg"
               alt="Lauren"
               className="h-full w-full object-cover object-top transition-transform duration-200 ease-out"
             />
@@ -50,7 +50,7 @@ const About = () => {
                 About the designer
               </p>
               <h2
-                className="max-w-3xl font-semibold leading-[0.88] text-[4vw]"
+                className="max-w-3xl font-semibold leading-[0.88] text-[clamp(2rem,4vw,3rem)]"
                 data-aos="fade-left"
               >
                 <span className="block">GET TO KNOW</span>
@@ -64,14 +64,14 @@ const About = () => {
             </div>
 
             <div className="max-w-2xl space-y-7 text-base leading-relaxed lg:pl-[12%]">
-              <p>
+              <p data-aos="fade-left" data-aos-delay="0">
                 Hi! I'm Lauren Kimball — a Product Design student at the
                 University of Oregon with a focus on apparel design and a minor
                 in entrepreneurship. I'm passionate about creating intentional,
                 inclusive work that blends aesthetics, function, and real-world
                 application.
               </p>
-              <p>
+              <p data-aos="fade-left" data-aos-delay="150">
                 With over four years of experience in apparel design through
                 academic work and personal projects, I explore how fit,
                 material, and construction shape the way people interact with
@@ -80,7 +80,7 @@ const About = () => {
                 continuing to build my skills through exposure to different
                 design processes and techniques.
               </p>
-              <p>
+              <p data-aos="fade-left" data-aos-delay="300">
                 My design process is rooted in purpose — developing solutions
                 that respond to real needs while maintaining a strong sense of
                 style. I aim to create work that feels thoughtful, wearable, and
