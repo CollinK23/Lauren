@@ -7,6 +7,7 @@ export const projects = {
     image: "/purse1.jpg",
     tags: ["Design", "Creative", "Digital"],
     year: "2025",
+    backRoute: "/projects",
     grid: {
       cols: 12, // total number of grid columns
       items: [
@@ -44,10 +45,11 @@ export const projects = {
     id: "tropical-summer",
     title: "TROPICAL SUMMER",
     description:
-      "Created a summer top from fabric sourced during Joann’s closing sale, inspired by the colors and atmosphere of a trip to Hawaii.",
+      "Created a summer top from fabric sourced during Joann's closing sale, inspired by the colors and atmosphere of a trip to Hawaii.",
     image: "/top3.jpg",
     tags: ["Design", "Creative", "Digital"],
     year: "April 2025",
+    backRoute: "/projects",
     grid: {
       cols: 12, // total number of grid columns
       items: [
@@ -71,6 +73,7 @@ export const projects = {
     image: "/top1.jpg",
     tags: ["Architecture", "3D", "Visualization"],
     year: "2025",
+    backRoute: "/projects",
     grid: {
       cols: 12, // total number of grid columns
       items: [
@@ -81,6 +84,610 @@ export const projects = {
         {
           src: "/top1-2.jpg",
           className: "col-span-12 row-span-1 lg:aspect-[4/3] aspect-[5/4]",
+        },
+      ],
+    },
+  },
+  blacktop: {
+    id: "blacktop",
+    title: "BLACKTOP",
+    description:
+      "Blacktop was developed during a summer internship under the mentorship of Ron Wright. The brief challenged me to step beyond my own interests and experiences, immerse myself in a culture outside of my own, identify an unmet need, and develop a meaningful design response. Through that process, I explored the culture of street basketball and ultimately developed Blacktop, a fashion-forward apparel system designed around the spontaneous, always-ready nature of the game. Working with Ron pushed me toward an industry-standard design process, from research and concept development to material innovation, iteration, critique, refinement, and final storytelling. More than developing a collection, the internship taught me to defend the “why” behind my decisions, respond intentionally to critique, and approach design with the level of rigor and purpose expected in the industry.",
+    image: "/blacktop/1788165251608-a9d10e65-af70-4adc-84b8-3ebad6da9081_1.jpg",
+    tags: ["Design", "Editorial", "Creative"],
+    year: "2026",
+    descriptionSize: "text-xs",
+    yearSize: "text-xs",
+    backRoute: "/projects/apparel",
+    backgroundColor: "#e0e0e1",
+    borderColor: "#c7c7c7",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/blacktop/1788165251608-a9d10e65-af70-4adc-84b8-3ebad6da9081_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165251608-a9d10e65-af70-4adc-84b8-3ebad6da9081_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/Blacktop 3.mp4",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/Blacktop 4.mp4",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_1 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_2 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_3 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_4 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_5 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_6 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_7 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_8 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_9 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_10 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_11 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_12 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_13 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_14 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_15 (1).jpg",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  "free-people": {
+    id: "free-people",
+    title: "FREE PEOPLE",
+    description:
+      "Free People was a self-directed project to challenge myself to design for a brand I'm personally interested with to gain experience designing within an established brand identity. I began by immersing myself in the Free People world, visiting stores to study the product assortment, materials, silhouettes, merchandising, and details that define the brand. From there, I researched their target consumer and practiced trend forecasting to understand not only what was currently relevant, but where the brand and its customer could be headed next. The project challenged me to balance my own design perspective with the needs, aesthetic, and lifestyle of a specific consumer, strengthening my ability to research trends and translate brand and consumer insights into a thoughtful apparel concept.",
+    image:
+      "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_1.jpg",
+    tags: ["Branding", "Editorial", "Product"],
+    year: "2026",
+    descriptionSize: "text-xs",
+    yearSize: "text-xs",
+    backRoute: "/projects/apparel",
+    backgroundColor: "#e6d9c9",
+    borderColor: "#d5c6b0d6",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_3.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_4.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_5.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_6.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_7.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_8.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_9.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_10.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_11.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_12.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_13.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_14.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_15.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_16.jpg",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  contour: {
+    id: "contour",
+    title: "CONTOUR",
+    description:
+      "Contour is my passion project and an ongoing exploration of a problem I've personally experienced for years: the challenge of finding denim that truly fits different body proportions. Rather than treating it as a one-time design project, I've continued to challenge, test, and develop the concept as my understanding of fit, construction, and the denim consumer grows. To immerse myself in the industry, I intentionally pursued multiple retail and styling roles where I could work directly with denim, observe recurring fit issues, and hear firsthand how customers experience sizing across different brands. The project's potential was recognized with funding through the Michael & Stacy Koehn Endowed Fund, allowing me to continue pushing Contour from a personal frustration into a more developed design solution.",
+    image:
+      "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_1.jpg",
+    tags: ["Design", "Inclusive", "Product"],
+    year: "2026",
+    descriptionSize: "text-xs",
+    yearSize: "text-xs",
+    backRoute: "/projects/apparel",
+    backgroundColor: "#EDEBEE",
+    borderColor: "#cdcbce",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_3.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_4.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_5.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_6.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_7.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_8.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_9.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_10.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_11.jpg",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  myscan: {
+    id: "myscan",
+    title: "MYSCAN",
+    description:
+      "MyScan was developed for Intro to Design Studio II at the University of Oregon, where I was tasked with designing a measurement device. Whenever possible, I look for opportunities to shape my studies toward the apparel industry, so I approached the brief through the lens of clothing and fit. I designed a body-scanning device that captures a shopper's measurements to make finding the right size and shopping for clothing easier, allowing me to explore how product design and technology can improve the apparel experience.",
+    image:
+      "/myscan/1788174462214-9a453a6d-2d91-46c7-87aa-53db7a86885b_4 (1).jpg",
+    tags: ["UX/UI", "Research", "Digital"],
+    year: "2026",
+    backRoute: "/projects/apparel",
+    backgroundColor: "#EBEBEB",
+    borderColor: "#c7c7c7",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/myscan/1788174462214-9a453a6d-2d91-46c7-87aa-53db7a86885b_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/myscan/1788174462214-9a453a6d-2d91-46c7-87aa-53db7a86885b_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/myscan/1788174462214-9a453a6d-2d91-46c7-87aa-53db7a86885b_3.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/myscan/1788174462214-9a453a6d-2d91-46c7-87aa-53db7a86885b_4.mp4",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/myscan/1788174462214-9a453a6d-2d91-46c7-87aa-53db7a86885b_5.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/myscan/1788174462214-9a453a6d-2d91-46c7-87aa-53db7a86885b_6.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/myscan/1788174462214-9a453a6d-2d91-46c7-87aa-53db7a86885b_7.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/myscan/1788174462214-9a453a6d-2d91-46c7-87aa-53db7a86885b_8.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/myscan/1788174462214-9a453a6d-2d91-46c7-87aa-53db7a86885b_9.jpg",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  auro: {
+    id: "auro",
+    title: "AURO",
+    description:
+      "Auro was created for Intro to Design Studio I at the University of Oregon, where I was tasked with redesigning a portable speaker. After studying our target consumer and identifying pain points with their current speaker, I designed a speaker that closes to help protect the speakers from dirt and dust while also packing down to save space. I wanted Auro to feel just as intentional in the home as it does on the go, with a chic, minimal form that blends into a space rather than becoming an eyesore.",
+    image: "/auro/1788254590675-047220d5-1573-42bf-bcda-b3c6e93d2af2_1.jpg",
+    tags: ["Design", "Research", "Visual"],
+    year: "2026",
+    backRoute: "/projects/uo",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/auro/1788254590675-047220d5-1573-42bf-bcda-b3c6e93d2af2_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/auro/1788254590675-047220d5-1573-42bf-bcda-b3c6e93d2af2_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/auro/1788254590675-047220d5-1573-42bf-bcda-b3c6e93d2af2_3.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/auro/1788254590675-047220d5-1573-42bf-bcda-b3c6e93d2af2_4.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/auro/1788254590675-047220d5-1573-42bf-bcda-b3c6e93d2af2_5.jpg",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  "bottle-opener": {
+    id: "bottle-opener",
+    title: "BOTTLE OPENER",
+    description:
+      "This bottle opener was created for Design for Use, a studio focused on redesigning everyday kitchen products to be more ergonomic and inclusive. As a group, we studied the history of the bottle opener and conducted hands-on research to better understand different user needs, including wearing thick gloves to simulate larger hands and blurred-vision glasses to understand limited visibility. These exercises helped us identify pain points in traditional bottle openers and develop a design that considered comfort, accessibility, grip, and ease of use for a wider range of people.",
+    image:
+      "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_1.jpg",
+    tags: ["Product", "Industrial", "Design"],
+    year: "2026",
+    descriptionSize: "text-xs",
+    yearSize: "text-xs",
+    backRoute: "/projects/uo",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_3.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_4.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_5.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_6.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_7.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_8.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_9.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/bottleopener/1788255533185-3997f258-7fcb-445d-8938-abf4cd3038ad_10.jpg",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  "luna-light": {
+    id: "luna-light",
+    title: "LUNA LIGHT",
+    description:
+      "Luna Light was created for Objects and Impacts, a course focused on understanding materials, manufacturing processes, and how those decisions impact a product. The project challenged me to consider factors beyond form, including material properties, cost, necessary wall thicknesses, and production methods such as die casting and injection molding. I also learned how to analyze manufactured products for details like witness marks to better understand how and why they were made. Luna Light allowed me to apply this knowledge by designing a compact stair light while making intentional decisions around its materials and manufacturing.",
+    image:
+      "/lunalight/1788255962797-61d54e88-16d0-41a5-b06d-2e49693825e3_1.jpg",
+    tags: ["Product", "Lighting", "Design"],
+    year: "2026",
+    descriptionSize: "text-xs",
+    yearSize: "text-xs",
+    backRoute: "/projects/uo",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/lunalight/1788255962797-61d54e88-16d0-41a5-b06d-2e49693825e3_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/lunalight/1788255962797-61d54e88-16d0-41a5-b06d-2e49693825e3_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/lunalight/1788255962797-61d54e88-16d0-41a5-b06d-2e49693825e3_3.jpg",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  nectar: {
+    id: "nectar",
+    title: "NECTAR",
+    description:
+      "Nectar was created for Computer Assisted Design & Production, where I developed my skills in SolidWorks and learned how to translate an idea into a detailed 3D model. Inspired by the organic forms of flowers, I designed a sculptural water bottle that allowed me to explore more complex forms while strengthening my understanding of CAD, assemblies, and designing parts for production.",
+    image: "/nectar/1788256498819-ed59b3ff-7877-4eee-9ffd-95d2436de9b4_1.jpg",
+    tags: ["Product", "Packaging", "Design"],
+    year: "2026",
+    backgroundColor: "#FFFFFF",
+    backRoute: "/projects/uo",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/nectar/1788256498819-ed59b3ff-7877-4eee-9ffd-95d2436de9b4_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/nectar/1788256498819-ed59b3ff-7877-4eee-9ffd-95d2436de9b4_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/nectar/1788256498819-ed59b3ff-7877-4eee-9ffd-95d2436de9b4_3.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/nectar/1788256498819-ed59b3ff-7877-4eee-9ffd-95d2436de9b4_4.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/nectar/1788256498819-ed59b3ff-7877-4eee-9ffd-95d2436de9b4_5.jpg",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  glasses: {
+    id: "glasses",
+    title: "GLASSES",
+    description:
+      "This glasses project was created for a computer-focused design course and gave me the opportunity to further develop my digital modeling and visualization skills. I modeled the frames in SolidWorks, explored construction details such as the embedded hinges, 3D printed a physical prototype, and used KeyShot and Vizcom to visualize different finishes and how the glasses could look in use.",
+    image: "/glasses/1788257332910-6c6c0c79-554f-4cb4-9feb-c5ed84b0eec3_1.jpg",
+    tags: ["Product", "Eyewear", "Design"],
+    year: "2026",
+    backRoute: "/projects/uo",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/glasses/1788257332910-6c6c0c79-554f-4cb4-9feb-c5ed84b0eec3_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/glasses/1788257332910-6c6c0c79-554f-4cb4-9feb-c5ed84b0eec3_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/glasses/1788257332910-6c6c0c79-554f-4cb4-9feb-c5ed84b0eec3_3.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/glasses/1788257332910-6c6c0c79-554f-4cb4-9feb-c5ed84b0eec3_4.jpg",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  fleur: {
+    id: "fleur",
+    title: "FLEUR",
+    description:
+      "Fleur is a University of Oregon project exploring how a floral-inspired product can feel both expressive and highly functional. I focused on translating organic forms into a refined object experience through thoughtful material, silhouette, and interaction decisions.",
+    image: "/fleur/1788257846277-581d93ee-2613-40e2-b6a3-4c8d1a1a44d0_1.jpg",
+    tags: ["Product", "Floral", "Design"],
+    year: "2026",
+    backgroundColor: "#E8E8E8",
+    backRoute: "/projects/uo",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/fleur/1788257846277-581d93ee-2613-40e2-b6a3-4c8d1a1a44d0_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/fleur/1788257846277-581d93ee-2613-40e2-b6a3-4c8d1a1a44d0_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/fleur/1788257846277-581d93ee-2613-40e2-b6a3-4c8d1a1a44d0_3.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/fleur/1788257846277-581d93ee-2613-40e2-b6a3-4c8d1a1a44d0_4.jpg",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  upcycled: {
+    id: "upcycled",
+    title: "UPCYCLED",
+    description:
+      "The up-cycling project explored how unwanted jeans and scrap denim could be given a second life rather than contributing to textile waste. I transformed leftover denim into one-of-a-kind totes and pouches, allowing customers to personalize their pieces with different patches so no two bags were exactly alike. After selling multiple pieces, the project grew beyond experimentation into a small-scale product experience and helped me develop practical apparel skills, including pattern making, tech pack development, construction, and designing with material limitations in mind.",
+    image: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_1.jpg",
+    tags: ["Design", "Sustainability", "Apparel"],
+    year: "2025",
+    descriptionSize: "text-[13px]",
+    yearSize: "text-[13px]",
+    backRoute: "/projects/apparel",
+    backgroundColor: "#E8E8E8",
+    borderColor: "#c1c1c1",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_1.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_2.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_3.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_4.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_5.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_6.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_7.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_8.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_9.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_10.jpg",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_11.jpg",
+          className: "col-span-12 row-span-1",
         },
       ],
     },

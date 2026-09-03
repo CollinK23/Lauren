@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useTheme } from "../theme-provider";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -17,8 +19,28 @@ import ProjectCarousel from "./Project";
 import Footer from "./Footer";
 import Bento from "./Bento";
 import DynamicFrameLayout from "./DynamicFrameLayout";
+import About from "./About";
+import Spacer from "./Spacer";
 
 export default function LandingPage() {
+  const { setTheme } = useTheme();
+
+  useEffect(() => {
+    setTheme("dark");
+
+    const hash = window.location.hash;
+    if (!hash) return;
+
+    const sectionId = hash.replace("#", "");
+    const element = document.getElementById(sectionId);
+
+    if (element) {
+      requestAnimationFrame(() => {
+        element.scrollIntoView({ behavior: "instant", block: "start" });
+      });
+    }
+  }, []);
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -32,12 +54,17 @@ export default function LandingPage() {
       <Navbar />
       {/* Hero Section */}
       <Hero scrollToSection={scrollToSection} />
-      <ProjectCarousel />
-      <Work />
+      <Spacer />
+      {/* <ProjectCarousel /> */}
       {/* <ProjectSection /> */}
       <Bento />
+      <Spacer />
+      <Work />
+      <Spacer />
 
-      <DynamicFrameLayout />
+      <About />
+      <Spacer />
+      {/* <DynamicFrameLayout /> */}
 
       <Footer />
     </div>

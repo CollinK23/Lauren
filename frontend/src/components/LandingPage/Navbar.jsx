@@ -16,21 +16,21 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="md:static sticky top-0 z-50 backdrop-blur border-b border-border bg-background/80">
-      <div className="container flex px-8 md:px-12 mx-auto h-16 items-center justify-between">
+    <header className="md:static sticky top-0 z-50 border-b md:bg-chart-1">
+      <div className=" flex px-8 md:px-16 mx-auto h-12 items-center justify-between">
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center space-x-8 font-mono">
-          <a href="#experience" className="text-sm font-medium hover:underline">
-            Experience
+        <nav className="hidden md:flex items-center space-x-8 font-mono text-background font-semibold">
+          <a href="#work" className="text-sm hover:underline">
+            WORK
           </a>
-          <a href="#work" className="text-sm font-medium hover:underline">
-            Work
+          <a href="#experience" className="text-sm hover:underline">
+            EXPERIENCE
           </a>
-          <a href="#skills" className="text-sm font-medium hover:underline">
-            Skills
+          <a href="#about" className="text-sm hover:underline">
+            ABOUT
           </a>
-          <a href="#contact" className="text-sm font-medium hover:underline">
-            Contact
+          <a href="#contact" className="text-sm hover:underline">
+            CONTACT
           </a>
         </nav>
 
@@ -55,13 +55,13 @@ const Navbar = () => {
               >
                 Work
               </a>
-              <a
+              {/* <a
                 href="#skills"
                 onClick={() => setMobileOpen(false)}
                 className="hover:underline"
               >
                 Skills
-              </a>
+              </a> */}
               <a
                 href="#contact"
                 onClick={() => setMobileOpen(false)}
@@ -73,7 +73,7 @@ const Navbar = () => {
           </SheetContent>
         </Sheet>
 
-        <ModeToggle />
+        {/* <ModeToggle /> */}
       </div>
     </header>
   );

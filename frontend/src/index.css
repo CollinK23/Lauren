@@ -24,7 +24,8 @@
 
 @font-face {
   font-family: "PPEditorialNew-UltralightItalic";
-  src: url("/PPEditorialNew-Italic.woff2") format("woff2"),
+  src:
+    url("/PPEditorialNew-Italic.woff2") format("woff2"),
     url("/PPEditorialNew-Italic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
@@ -57,12 +58,17 @@ body {
   padding: 0;
   overflow-x: hidden;
   overscroll-behavior-x: none;
+  overscroll-behavior-y: auto;
   min-height: 100vh;
 }
 
 * {
   scroll-behavior: smooth;
-  overscroll-behavior: none;
+  overscroll-behavior: auto;
+}
+
+img {
+  pointer-events: auto;
 }
 
 @media (prefers-color-scheme: light) {

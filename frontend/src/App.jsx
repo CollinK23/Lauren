@@ -37,6 +37,8 @@ function App() {
         <div className="w-full">
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/projects/apparel" element={<ProjectsPage />} />
+            <Route path="/projects/uo" element={<ProjectsPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/projects/:id" element={<ProjectPage />} />
           </Routes>
