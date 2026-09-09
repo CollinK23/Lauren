@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from "react";
+import { ArrowUpRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import "../../index.css";
 
 const Hero = () => {
@@ -36,29 +38,34 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="w-full px-8 lg:px-16 mx-auto h-[100vh]">
-      <div className="w-full h-full border-x flex items-end justify-between">
-        <div className="w-full">
-          <div className="flex lg:flex-row flex-col lg:justify-between justify-center lg:items-stretch items-center lg:items-end lg:pt-8 lg:pr-8 md:mb-0 mb-16 mx-auto">
-            <h1
-              className="text-[clamp(5rem,8vw,10rem)] leading-[1] tracking-[-0.09em] lg:text-left text-center lg:pl-4"
-              style={{ fontFamily: "PPEditorialNew-UltralightItalic" }}
-            >
-              LAUREN <br /> <span className="text-chart-1">KIMBALL</span>
-            </h1>
-            <p className="text-muted-foreground font-mono font-medium lg:text-right text-center lg:w-[30%] lg:mb-5 text-center lg:self-end">
-              PRODUCT & APPAREL DESIGNER
-            </p>
-          </div>
-
-          <div className="h-[45vh] overflow-hidden">
-            <img
-              ref={imageRef}
-              src="/jeans1.jpg"
-              alt="Jean design"
-              className="h-full w-full object-cover object-center grayscale-[0.8] brightness-[0.7] contrast-[1.08] saturate-[0.25] transition-transform duration-200 ease-out"
-            />
-          </div>
+    <section className="relative isolate h-[100vh] w-full overflow-hidden p-8 lg:p-16">
+      <video
+        ref={imageRef}
+        src="/VIDEO.mov"
+        autoPlay
+        muted
+        loop
+        playsInline
+        aria-hidden="true"
+        style={{ objectPosition: "center bottom" }}
+        className="pointer-events-none absolute inset-0 -z-10 h-full w-full object-cover opacity-50 [mask-image:linear-gradient(to_bottom,black_0%,black_50%,transparent_90%)] [-webkit-mask-image:linear-gradient(to_bottom,black_0%,black_50%,transparent_90%)]"
+      />
+      <div className="flex h-full flex-col items-center lg:justify-end justify-center lg:items-start lg:m-0 my-20">
+        <div className="order-2 lg:order-1">
+          <Button
+            asChild
+            className="my-8 bg-chart-1 hover:bg-foreground hover:text-background"
+          >
+            <a href="/projects">
+              View My Work
+              <ArrowUpRight aria-hidden="true" />
+            </a>
+          </Button>
+        </div>
+        <div className="order-1 lg:order-2">
+          <h1 className="text-[clamp(5rem,8vw,10rem)] uppercase font-bold leading-[0.8] tracking-[-0.04em] lg:text-left text-center">
+            Lauren <br /> <span className="">Kimball</span>
+          </h1>
         </div>
       </div>
     </section>

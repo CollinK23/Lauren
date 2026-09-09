@@ -1,29 +1,27 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import { ChevronLeft, ChevronRight, MoveLeft } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
-import { MoveLeft } from "lucide-react";
 import { projects } from "../constants";
 import Footer from "../LandingPage/Footer";
+import Navbar from "../LandingPage/Navbar";
 import { useTheme } from "../theme-provider";
+import Spacer from "../LandingPage/Spacer";
+import Bento from "../LandingPage/Bento";
 
-const apparelProjectIds = [
-  "contour",
-  "blacktop",
-  "free-people",
-  "upcycled",
-  "myscan",
-];
+const apparelProjectIds = ["contour", "blacktop", "free-people", "upcycled"];
 const universityProjectIds = [
+  "myscan",
   "auro",
   "bottle-opener",
   "luna-light",
   "nectar",
   "glasses",
-  "fleur",
 ];
 
 const ProjectsPage = () => {
   const location = useLocation();
   const { setTheme } = useTheme();
+  const scrollRef = useRef(null);
   const isApparelRoute = location.pathname === "/projects/apparel";
   const isUORoute = location.pathname === "/projects/uo";
 
@@ -38,84 +36,118 @@ const ProjectsPage = () => {
     .map((id) => projects[id])
     .filter(Boolean);
 
+  const scrollCarousel = (direction) => {
+    const container = scrollRef.current;
+    if (!container) return;
+
+    const firstCard = container.querySelector("[data-project-card]");
+    if (!firstCard) return;
+
+    const gap = 24;
+    const scrollAmount = firstCard.getBoundingClientRect().width + gap;
+    container.scrollBy({
+      left: direction * scrollAmount,
+      behavior: "smooth",
+    });
+  };
+
+  const renderCarousel = (projectList) => (
+    <div className="relative w-full">
+      <button
+        type="button"
+        onClick={() => scrollCarousel(-1)}
+        aria-label="Previous projects"
+        className="absolute left-2 top-1/2 z-20 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/40 bg-black/30 text-white backdrop-blur-sm transition hover:bg-black/50 lg:flex lg:left-4"
+      >
+        <ChevronLeft className="h-5 w-5" />
+      </button>
+
+      <button
+        type="button"
+        onClick={() => scrollCarousel(1)}
+        aria-label="Next projects"
+        className="absolute right-2 top-1/2 z-20 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/40 bg-black/30 text-white backdrop-blur-sm transition hover:bg-black/50 lg:flex lg:right-4"
+      >
+        <ChevronRight className="h-5 w-5" />
+      </button>
+
+      <div
+        ref={scrollRef}
+        className="flex flex-col gap-6 overflow-x-auto lg:px-14 px-8 pb-4 scroll-smooth [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden md:px-20 lg:flex-row"
+      >
+        {projectList.map((project) => (
+          <Link
+            key={project.id}
+            data-project-card
+            to={`/projects/${project.id}`}
+            className="group relative block w-full shrink-0 overflow-hidden rounded-xl border bg-muted lg:w-[min(46vw,560px)]"
+          >
+            <p className="absolute right-4 top-4 z-10 rounded-lg bg-background/75 px-3 py-1 text-sm backdrop-blur-sm">
+              {project.year}
+            </p>
+            <div className="overflow-hidden">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="aspect-[5/4] w-full object-cover transition duration-300 ease-out group-hover:scale-[1.03] group-hover:brightness-75"
+                style={{ objectPosition: project.imageAlign || "center" }}
+              />
+            </div>
+
+            <div className="flex items-end justify-between gap-4 px-4 py-4">
+              <div className="w-full">
+                <div className="flex flex-row justify-between gap-4">
+                  <span className="mt-2 block text-lg font-semibold">
+                    {project.title}
+                  </span>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  {project.thumbnailDescription}
+                </p>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+
   return (
     <div>
-      <header className="top-0 z-50 border-b backdrop-blur">
-        <div className="mx-auto flex h-32 w-[90%] items-center justify-between px-8 md:px-12">
-          <div className="flex items-center gap-4">
-            <button
-              type="button"
-              aria-label="Back to landing page"
-              onClick={() => {
-                window.location.href = "/#work";
-              }}
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-foreground/30 transition hover:bg-foreground hover:text-background"
+      <Navbar />
+      <div
+        className={`min-h-[100vh] lg:py-24 py-20 ${!isApparelRoute && !isUORoute ? "lg:px-16 px-8" : ""}`}
+      >
+        {isApparelRoute || isUORoute ? (
+          <header className="lg:px-16 px-8">
+            <Link
+              to="/projects"
+              className="flex w-fit items-center gap-2 text-xs transition hover:opacity-60 text-muted-foreground"
             >
-              <MoveLeft className="h-5 w-5" />
-            </button>
-            <h1 className="text-5xl font-bold tracking-tight md:text-6xl">
-              {isApparelRoute
-                ? "APPAREL WORK"
-                : isUORoute
-                  ? "UNIVERSITY OF OREGON PROJECTS"
-                  : "PROJECTS"}
-            </h1>
-          </div>
+              <MoveLeft className="h-4 w-4" />
+              Back to Projects
+            </Link>
+            <div className="mx-auto flex items-center justify-between lg:text-[6vw] text-[10vw]">
+              <h1 className="font-semibold tracking-tight ">
+                {isApparelRoute ? "APPAREL WORK" : "PRODUCT DESIGN"}
+              </h1>
+            </div>
+          </header>
+        ) : null}
+        <div className="mx-auto flex flex-col">
+          {!isApparelRoute && !isUORoute ? (
+            <Bento
+              projectTitleClassName="lg:text-[6vw] text-[10vw] lg:text-left text-center"
+              heightClassName="min-h-[100vh]"
+            />
+          ) : (
+            <div className="">
+              {!isUORoute && renderCarousel(apparelProjects)}
+              {!isApparelRoute && renderCarousel(universityProjects)}
+            </div>
+          )}
         </div>
-      </header>
-
-      <div className="container mx-auto flex flex-col space-y-12 border-x p-8 lg:space-y-16">
-        {!isUORoute && (
-          <div className="w-full">
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-              {apparelProjects.map((project) => (
-                <Link
-                  key={project.id}
-                  to={`/projects/${project.id}`}
-                  className="group block overflow-hidden"
-                >
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="aspect-[10/7] w-full object-cover transition duration-200 ease-out group-hover:brightness-75"
-                  />
-                  <div className="mt-3 flex items-center justify-between">
-                    <span className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
-                      {project.title}
-                    </span>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {!isApparelRoute && (
-          <div className="w-full">
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-              {universityProjects.map((project) => (
-                <Link
-                  key={project.id}
-                  to={`/projects/${project.id}`}
-                  className="group block overflow-hidden"
-                >
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full object-cover transition duration-200 ease-out group-hover:brightness-75"
-                  />
-                  <div className="mt-3 flex items-center justify-between">
-                    <span className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
-                      {project.title}
-                    </span>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
-
       <Footer />
     </div>
   );

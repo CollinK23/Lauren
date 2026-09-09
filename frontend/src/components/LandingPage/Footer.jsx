@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="font-semibold text-background text-md">CONTACT</div>
             <a
               href="mailto:Kimball.a.lauren@gmail.com"
-              className="font-mono text-md text-muted-foreground hover:underline dark:text-background"
+              className="text-md text-muted-foreground hover:underline dark:text-background"
             >
               Email
             </a>
@@ -24,7 +24,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/lauren-kimball-b221ba352/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-mono text-md text-muted-foreground hover:underline dark:text-background"
+              className="text-md text-muted-foreground hover:underline dark:text-background"
             >
               LinkedIn
             </a>
@@ -32,7 +32,7 @@ const Footer = () => {
               href="https://www.instagram.com/onegeans/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-mono text-md text-muted-foreground hover:underline dark:text-background"
+              className="text-md text-muted-foreground hover:underline dark:text-background"
             >
               Instagram
             </a>
@@ -42,22 +42,22 @@ const Footer = () => {
           <li className="list-none text-left flex flex-col gap-2">
             <div className="font-semibold text-background text-md">WEBSITE</div>
             <a
-              href="#work"
-              className="font-mono text-md text-muted-foreground hover:underline dark:text-background"
+              href="/projects"
+              className=" text-md text-muted-foreground hover:underline dark:text-background"
             >
-              WORK
+              Projects
             </a>
-            <a
+            {/* <a
               href="#experience"
               className="font-mono text-md text-muted-foreground hover:underline dark:text-background"
             >
               EXPERIENCE
-            </a>
+            </a> */}
             <a
-              href="#about"
-              className="font-mono text-md text-muted-foreground hover:underline dark:text-background"
+              href="/#about"
+              className=" text-md text-muted-foreground hover:underline dark:text-background"
             >
-              ABOUT
+              About
             </a>
           </li>
         </div>

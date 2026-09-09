@@ -26,7 +26,7 @@ export default function LandingPage() {
   const { setTheme } = useTheme();
 
   useEffect(() => {
-    setTheme("dark");
+    setTheme("light");
 
     const hash = window.location.hash;
     if (!hash) return;
@@ -57,13 +57,16 @@ export default function LandingPage() {
       <Spacer />
       {/* <ProjectCarousel /> */}
       {/* <ProjectSection /> */}
-      <Bento />
+      <Bento
+        heightClassName="lg:px-16 px-8"
+        projectTitleClassName="lg:text-right text-center text-[10vw]"
+      />
       <Spacer />
-      <Work />
-      <Spacer />
+      {/* <Work />
+      <Spacer /> */}
 
       <About />
-      <Spacer />
+      {/* <Spacer /> */}
       {/* <DynamicFrameLayout /> */}
 
       <Footer />
