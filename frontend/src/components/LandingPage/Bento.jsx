@@ -56,6 +56,7 @@ const Bento = ({
                 <img
                   src={project.image}
                   alt={project.title}
+                  loading="lazy"
                   className="aspect-[5/4] w-full object-cover transition duration-500 ease-out group-hover:scale-105 group-hover:brightness-75"
                   style={{
                     objectPosition: column.imageAlign || "center",
@@ -73,6 +74,7 @@ const Bento = ({
                 <img
                   src={project.image}
                   alt={project.title}
+                  loading="lazy"
                   className="aspect-[5/4] w-full object-cover"
                   style={{
                     objectPosition: column.imageAlign || "center",

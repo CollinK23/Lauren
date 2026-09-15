@@ -28,6 +28,7 @@ function ProjectCard({ project, onHover, onLeave }) {
         <img
           src={imageSrc}
           alt={project.title}
+          loading="lazy"
           className="w-full h-full object-cover absolute"
         />
       </Card>

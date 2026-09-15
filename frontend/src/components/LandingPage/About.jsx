@@ -21,6 +21,7 @@ const About = () => (
       <img
         src="/Lauren.jpg"
         alt="Lauren Kimball"
+        loading="lazy"
         className="h-full w-40 rounded-full object-cover"
       />
       <h1 className="text-[10vw] uppercase font-semibold tracking-tight">

@@ -66,7 +66,7 @@ export default function ProjectSection() {
       if (currentScroll <= 0) {
         progress = Math.max(
           0,
-          Math.min(1, (scrollStart - currentScroll) / scrollRange)
+          Math.min(1, (scrollStart - currentScroll) / scrollRange),
         );
       }
 
@@ -109,6 +109,7 @@ export default function ProjectSection() {
                 <img
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
+                  loading="lazy"
                   className="w-full h-full object-cover transition-transform duration-300 ease-out pr-8 pt-8"
                   style={{
                     transform: `translateX(-${(1 - pageProgress) * 100}%)`,

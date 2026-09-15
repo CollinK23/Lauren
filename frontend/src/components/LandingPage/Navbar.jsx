@@ -22,7 +22,12 @@ const Navbar = () => {
         <nav className="hidden w-full md:flex md:flex-row justify-between items-center space-x-8 font-medium">
           <div className="bg-chart-1">
             <a href="/" aria-label="Home">
-              <img src="/lk.png" alt="" className="h-16 w-16 object-contain" />
+              <img
+                src="/lk.png"
+                alt=""
+                loading="lazy"
+                className="h-16 w-16 object-contain"
+              />
             </a>
           </div>
           <div className="ml-auto flex items-center space-x-8 text-background">
@@ -43,7 +48,12 @@ const Navbar = () => {
 
         {/* Mobile Home */}
         <a href="/" aria-label="Home" className="p-2 md:hidden bg-chart-1">
-          <img src="/lk.png" alt="" className="h-12 w-12 object-contain" />
+          <img
+            src="/lk.png"
+            alt=""
+            loading="lazy"
+            className="h-12 w-12 object-contain"
+          />
         </a>
 
         {/* Mobile Menu Button */}

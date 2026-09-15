@@ -123,7 +123,9 @@ const ProjectPage = () => {
                   <h2 className="text-xl md:text-2xl font-semibold  tracking-tight">
                     ABOUT
                   </h2>
-                  <p className={`${projectDescriptionSize} whitespace-normal`}>
+                  <p
+                    className={`${projectDescriptionSize} whitespace-pre-line`}
+                  >
                     {project.description}
                   </p>
                 </div>
@@ -177,6 +179,7 @@ const ProjectPage = () => {
                           <img
                             src={item.src || "/placeholder.svg"}
                             alt={`${project.title} image ${index + 1}`}
+                            loading="lazy"
                             className={`h-full w-full object-cover object-bottom transition-[filter] duration-200 ease-out ${
                               item.imgClassName || ""
                             }`}
@@ -226,6 +229,7 @@ const ProjectPage = () => {
                       <img
                         src={selectedItem.src || "/placeholder.svg"}
                         alt={`${project.title} image ${selectedMediaIndex + 1}`}
+                        loading="lazy"
                         className="max-h-[90vh] max-w-[90vw] object-contain"
                       />
                     )}

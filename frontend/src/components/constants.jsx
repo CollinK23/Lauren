@@ -109,79 +109,79 @@ export const projects = {
       gap: "gap-0",
       items: [
         {
-          src: "/blacktop/1788165251608-a9d10e65-af70-4adc-84b8-3ebad6da9081_1.jpg",
+          src: "/blacktop/1.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165251608-a9d10e65-af70-4adc-84b8-3ebad6da9081_2.jpg",
+          src: "/blacktop/2.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/Blacktop 3.mp4",
+          src: "/blacktop/3.mp4",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/Blacktop 4.mp4",
+          src: "/blacktop/4.mp4",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_1 (1).jpg",
+          src: "/blacktop/5.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_2 (1).jpg",
+          src: "/blacktop/6.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_3 (1).jpg",
+          src: "/blacktop/7.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_4 (1).jpg",
+          src: "/blacktop/8.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_5 (1).jpg",
+          src: "/blacktop/9.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_6 (1).jpg",
+          src: "/blacktop/10.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_7 (1).jpg",
+          src: "/blacktop/11.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_8 (1).jpg",
+          src: "/blacktop/12.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_9 (1).jpg",
+          src: "/blacktop/13.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_10 (1).jpg",
+          src: "/blacktop/14.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_11 (1).jpg",
+          src: "/blacktop/15.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_12 (1).jpg",
+          src: "/blacktop/16.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_13 (1).jpg",
+          src: "/blacktop/17.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_14 (1).jpg",
+          src: "/blacktop/18.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/blacktop/1788165784915-c555ff73-fd1d-4933-8835-18bffeeb7179_15 (1).jpg",
+          src: "/blacktop/19.png",
           className: "col-span-12 row-span-1",
         },
       ],
@@ -192,8 +192,7 @@ export const projects = {
     title: "FREE PEOPLE - ROOTED IN DNA",
     description:
       "Free People was a self-directed project to challenge myself to design for a brand I'm personally interested with to gain experience designing within an established brand identity. I began by immersing myself in the Free People world, visiting stores to study the product assortment, materials, silhouettes, merchandising, and details that define the brand. From there, I researched their target consumer and practiced trend forecasting to understand not only what was currently relevant, but where the brand and its customer could be headed next. The project challenged me to balance my own design perspective with the needs, aesthetic, and lifestyle of a specific consumer, strengthening my ability to research trends and translate brand and consumer insights into a thoughtful apparel concept.",
-    image:
-      "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_1.jpg",
+    image: "/freepeople/1.png",
     thumbnailDescription:
       "Free People Brand Exploration | Seasonal Apparel Collection",
     tags: ["Branding", "Editorial", "Product"],
@@ -209,67 +208,102 @@ export const projects = {
       gap: "gap-0",
       items: [
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_1.jpg",
+          src: "/freepeople/1.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_2.jpg",
+          src: "/freepeople/2.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_3.jpg",
+          src: "/freepeople/3.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_4.jpg",
+          src: "/freepeople/4.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_5.jpg",
+          src: "/freepeople/5.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_6.jpg",
+          src: "/freepeople/6.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_7.jpg",
+          src: "/freepeople/7.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_8.jpg",
+          src: "/freepeople/8.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_9.jpg",
+          src: "/freepeople/9.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_10.jpg",
+          src: "/freepeople/10.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_11.jpg",
+          src: "/freepeople/11.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_12.jpg",
+          src: "/freepeople/12.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_13.jpg",
+          src: "/freepeople/13.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_14.jpg",
+          src: "/freepeople/14.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_15.jpg",
+          src: "/freepeople/15.png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/freepeople/1788161914093-46c830ec-c6b5-45e0-9bcf-fc1e76b68d61_16.jpg",
+          src: "/freepeople/16.png",
+          className: "col-span-12 row-span-1",
+        },
+      ],
+    },
+  },
+  tops: {
+    id: "tops",
+    title: "TOPS",
+    description: `The Gameday top began with a simple personal need: I wanted a cute, unique top for gameday but felt there was little variety in women's gameday apparel. Instead of settling for what was available, I designed and made my own. The piece sparked interest from others and opened the door for me to create a few custom gameday pieces beyond my original design.
+  \nThis blue floral top began with a piece I wanted for a trip to Hawaii but couldn't find at an accessible price point. I felt I could create my own version while adding details that better reflected my personal style. The project became an opportunity to strengthen my construction skills and experiment with fabric selection, learning how material choice impacts the fit, drape, and overall feel of a garment.`,
+    image: "/tops/1%20(2).png",
+    thumbnailDescription:
+      "Apparel Design Exploration | Tops & Silhouette Development",
+    tags: ["Design", "Apparel", "Creative"],
+    year: "2025",
+    backRoute: "/projects/apparel",
+    theme: "light",
+    grid: {
+      cols: 12,
+      gap: "gap-0",
+      items: [
+        {
+          src: "/tops/1%20(2).png",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/tops/2%20(2).png",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/tops/3%20(2).png",
+          className: "col-span-12 row-span-1",
+        },
+        {
+          src: "/tops/4%20(2).png",
           className: "col-span-12 row-span-1",
         },
       ],
@@ -280,8 +314,7 @@ export const projects = {
     title: "CONTOUR",
     description:
       "Contour is my passion project and an ongoing exploration of a problem I've personally experienced for years: the challenge of finding denim that truly fits different body proportions. Rather than treating it as a one-time design project, I've continued to challenge, test, and develop the concept as my understanding of fit, construction, and the denim consumer grows. To immerse myself in the industry, I intentionally pursued multiple retail and styling roles where I could work directly with denim, observe recurring fit issues, and hear firsthand how customers experience sizing across different brands. The project's potential was recognized with funding through the Michael & Stacy Koehn Endowed Fund, allowing me to continue pushing Contour from a personal frustration into a more developed design solution.",
-    image:
-      "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_1.jpg",
+    image: "/inclusivedenim/1%20(1).png",
     tags: ["Design", "Inclusive", "Product"],
     year: "2022 - Present",
     thumbnailDescription:
@@ -297,47 +330,47 @@ export const projects = {
       gap: "gap-0",
       items: [
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_1.jpg",
+          src: "/inclusivedenim/1%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_2.jpg",
+          src: "/inclusivedenim/2%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_3.jpg",
+          src: "/inclusivedenim/3%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_4.jpg",
+          src: "/inclusivedenim/4%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_5.jpg",
+          src: "/inclusivedenim/5%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_6.jpg",
+          src: "/inclusivedenim/6%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_7.jpg",
+          src: "/inclusivedenim/7%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_8.jpg",
+          src: "/inclusivedenim/8%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_9.jpg",
+          src: "/inclusivedenim/9%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_10.jpg",
+          src: "/inclusivedenim/10%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/inclusivedenim/1788164658860-b3418fd6-97e2-4291-af14-9e1f4c0bdd03_11.jpg",
+          src: "/inclusivedenim/11%20(1).png",
           className: "col-span-12 row-span-1",
         },
       ],
@@ -664,47 +697,47 @@ export const projects = {
       gap: "gap-0",
       items: [
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_1.jpg",
+          src: "/upcycled/5%20(2).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_2.jpg",
+          src: "/upcycled/6%20(2).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_3.jpg",
+          src: "/upcycled/7%20(2).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_4.jpg",
+          src: "/upcycled/8%20(2).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_5.jpg",
+          src: "/upcycled/9%20(2).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_6.jpg",
+          src: "/upcycled/10%20(2).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_7.jpg",
+          src: "/upcycled/11%20(2).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_8.jpg",
+          src: "/upcycled/12%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_9.jpg",
+          src: "/upcycled/13%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_10.jpg",
+          src: "/upcycled/14%20(1).png",
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/upcycled/1788173801214-a138e9c7-7b03-4eb9-934d-4a5d88b3f217_11.jpg",
+          src: "/upcycled/15%20(1).png",
           className: "col-span-12 row-span-1",
         },
       ],

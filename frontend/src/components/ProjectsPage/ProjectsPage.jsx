@@ -8,7 +8,13 @@ import { useTheme } from "../theme-provider";
 import Spacer from "../LandingPage/Spacer";
 import Bento from "../LandingPage/Bento";
 
-const apparelProjectIds = ["contour", "blacktop", "free-people", "upcycled"];
+const apparelProjectIds = [
+  "contour",
+  "blacktop",
+  "free-people",
+  "tops",
+  "upcycled",
+];
 const universityProjectIds = [
   "myscan",
   "auro",
@@ -89,6 +95,7 @@ const ProjectsPage = () => {
               <img
                 src={project.image}
                 alt={project.title}
+                loading="lazy"
                 className="aspect-[5/4] w-full object-cover transition duration-300 ease-out group-hover:scale-[1.03] group-hover:brightness-75"
                 style={{ objectPosition: project.imageAlign || "center" }}
               />

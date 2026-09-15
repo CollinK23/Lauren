@@ -41,7 +41,7 @@ const Hero = () => {
     <section className="relative isolate h-[100vh] w-full overflow-hidden p-8 lg:p-16">
       <video
         ref={imageRef}
-        src="/VIDEO.mov"
+        src="/VIDEO.mp4"
         autoPlay
         muted
         loop

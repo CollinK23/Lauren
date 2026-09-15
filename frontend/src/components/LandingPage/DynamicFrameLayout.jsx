@@ -205,6 +205,7 @@ export default function DynamicFrameLayout() {
                       <img
                         src={skill.mainImage || "/placeholder.svg"}
                         alt={skill.title}
+                        loading="lazy"
                         className="aspect-[5/4] h-64 object-cover"
                       />
                       <p className="max-w-lg font-mono text-muted-foreground">
