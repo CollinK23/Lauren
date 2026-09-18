@@ -295,7 +295,7 @@ export const projects = {
           className: "col-span-12 row-span-1",
         },
         {
-          src: "/tops/2%20(2).png",
+          src: "/tops/2.png",
           className: "col-span-12 row-span-1",
         },
         {
